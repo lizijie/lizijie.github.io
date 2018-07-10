@@ -1,0 +1,1315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"qu",
+				"teamQueue"
+			],
+			[
+				"ise",
+				"isUsed"
+			],
+			[
+				"roo",
+				"roomInfo"
+			],
+			[
+				"room",
+				"roomQueue"
+			],
+			[
+				"rom",
+				"roomQueue"
+			],
+			[
+				"ro",
+				"roomInfo"
+			],
+			[
+				"tea",
+				"teamList"
+			],
+			[
+				"team",
+				"team1"
+			],
+			[
+				"Applica",
+				"ApplicationProtocolEvent"
+			],
+			[
+				"fun",
+				"function\tfunction"
+			],
+			[
+				"mon",
+				"mongo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 3147,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head-icons-rel.html",
+			"settings":
+			{
+				"buffer_size": 2332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/base.html",
+			"settings":
+			{
+				"buffer_size": 1357,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/utils/google-analytics.html",
+			"settings":
+			{
+				"buffer_size": 465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/utils/baidu-tongji-analytics.html",
+			"settings":
+			{
+				"buffer_size": 272,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packli",
+		"selected_items":
+		[
+			[
+				"packli",
+				"Package Control: List Packages"
+			],
+			[
+				"packen",
+				"Package Control: Enable Package"
+			],
+			[
+				"packdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"packageni",
+				"Package Control: List Packages"
+			],
+			[
+				"pakcagelist",
+				"Package Control: Install Package"
+			],
+			[
+				"Evernote:new",
+				"Evernote: New empty note"
+			],
+			[
+				"markdownprei",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"packagelist",
+				"Package Control: Install Package"
+			],
+			[
+				"markdownpre",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"Markdown",
+				"MarkdownEditing: Jump Reference"
+			],
+			[
+				"even",
+				"Evernote: New empty note"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"evesrnote",
+				"Evernote: Search Note"
+			],
+			[
+				"evese",
+				"Evernote: List linked notes"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"evernote: a",
+				"Evernote: Insert link to a note (search)"
+			],
+			[
+				"markdown",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"markdownpr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"TABEL",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packagere",
+				"Package Control: Remove Package"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"MarkdownEditing: Add Missing Link Labels"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"evn",
+				"Evernote: Insert link to a note (browse)"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 117.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/lizijie.github.io",
+		"/G/lizijie.github.io/_includes",
+		"/G/lizijie.github.io/_includes/utils",
+		"/G/lizijie.github.io/_layouts",
+		"/G/lizijie.github.io/_posts"
+	],
+	"file_history":
+	[
+		"/G/CJ/program/client/trunk/cj/Assets/Scripts/Steel/Foundation/RakNet/RakNetSocket.cs",
+		"/G/BombSpeedCn/Assets/Scripts/Modules/Logic/CarChange/CarChangeCtrl.cs",
+		"/G/BombSpeedCn/Assets/Plugins/ThirdParty/NGUI/Scripts/UI/UIAnchor.cs",
+		"/G/use_vim_as_ide/.ycm_extra_conf.py",
+		"/C/Users/42588/Desktop/2018-03-09-进程启动关闭实例及shell技巧.md",
+		"/C/Users/42588/Desktop/2018-03-09-进程启动、停止技巧.md",
+		"/C/Users/42588/Desktop/2222.md",
+		"/G/CJ/program/server/trunk/LuaScript/protocol/Protocol.lua",
+		"/G/CJ/program/server/trunk/Common/pbc/proto.c",
+		"/G/CJ/program/server/trunk/Common/pbc/proto.h",
+		"/G/CJ/program/server/trunk/Common/pbc/register.c",
+		"/G/BombSpeedCn/Assets/Resources/Public/Xml/achievement.bytes",
+		"/G/CJ/program/server/trunk/LuaScript/loginSvr/accountIdPool.lua",
+		"/C/Users/42588/Desktop/rocketmq-console-ng.bat",
+		"/G/springrts-code/AI/Skirmish/NullAI/data/AIOptions.lua",
+		"/G/springrts-code/AI/Skirmish/NullAI/data/AIInfo.lua",
+		"/G/springrts-code/AI/Skirmish/CppTestAI/data/AIOptions.lua",
+		"/G/springrts-code/AI/Skirmish/CppTestAI/data/AIInfo.lua",
+		"/G/springrts-code/AI/Skirmish/AAI/data/AIInfo.lua",
+		"/G/springrts-code/cont/examples/Widgets/game_messages.lua",
+		"/C/Users/42588/Desktop/1.lua",
+		"/G/CJ/program/protocol/trunk/protocol/Protocol.lua",
+		"/G/CJ/program/server/trunk/Common/pbc/pbc.h",
+		"/G/CJ/program/server/trunk/LuaPkg/src/stApp_tolua_open.cpp",
+		"/G/CJ/program/server/trunk/MongoClient/src/stBson.cpp",
+		"/G/CJ/program/server/trunk/Lua/src/stCoroutine.cpp",
+		"/G/CJ/program/server/trunk/Lua/src/luabridger/luacjson/lua_cjson.c",
+		"/G/CJ/program/server/trunk/Common/pbc/decode.c",
+		"/G/CJ/program/client/trunk/cj/Assets/Lua/Steel/Base/protobuf.lua",
+		"/G/CJ/program/server/trunk/LuaScript/Global/ProtocolProcessorCommonFunc.lua",
+		"/G/CJ/program/server/trunk/LuaScript/Global/netClient.lua",
+		"/G/CJ/program/server/trunk/Common/GlobalDef/ProtocolDef.h",
+		"/G/CJ/program/server/trunk/LuaScript/Global/Util.lua",
+		"/G/CJ/program/server/trunk/Framework/src/stAppConfig.cpp",
+		"/G/CJ/program/server/trunk/LuaScript/Global/rpcHandler.lua",
+		"/G/CJ/program/server/trunk/Lua/src/stLuaMgr.cpp",
+		"/G/CJ/program/server/trunk/LuaScript/stMain.lua",
+		"/G/CJ/program/server/trunk/LuaScript/stPreMain.lua",
+		"/G/CJ/program/server/trunk/LuaScript/Global/protobuf.lua",
+		"/G/CJ/program/protocol/trunk/protocol/ErrorCodeDefines.lua",
+		"/G/CJ/program/protocol/trunk/protocol/login.pb",
+		"/G/CJ/program/server/trunk/Framework/include/stAppConfig.h",
+		"/G/CJ/program/protocol/trunk/login.proto",
+		"/G/CJ/program/server/trunk/LuaScript/dbProxySvr/dbdef.lua",
+		"/G/CJ/program/server/trunk/LuaScript/dbProxySvr/dbconnector.lua",
+		"/C/Users/42588/Desktop/sfdf",
+		"/C/Users/42588/Desktop/install.sh",
+		"/G/CJ/program/server/trunk/LuaScript/protocol/ErrorCodeDefines.lua",
+		"/C/Users/42588/Desktop/Dockerfile",
+		"/C/Users/42588/Desktop/protocol/Protocol.lua",
+		"/G/CJ/program/server/trunk/Framework/src/stApplication.cpp",
+		"/G/CJ/program/server/trunk/Thirdparty/libevent-2.0.22-stable/poll.c",
+		"/G/CJ/program/server/trunk/Network/src/stNetWork.cpp",
+		"/G/CJ/program/server/trunk/LuaScript/testSvr/testProtocol.lua",
+		"/G/CJ/program/server/trunk/LuaScript/_Test/testProtocol.lua",
+		"/G/CJ/program/protocol/google/protobuf/unittest_empty.proto",
+		"/G/CJ/program/protocol/google/protobuf/type.proto",
+		"/G/CJ/program/protocol/include/google/protobuf/timestamp.proto",
+		"/G/CJ/program/protocol/include/google/protobuf/descriptor.proto",
+		"/G/CJ/program/protocol/include/google/protobuf/struct.proto",
+		"/G/CJ/program/protocol/trunk/protocol/ErrorCodeDefine.lua",
+		"/G/CJ/program/protocol/trunk/Protocol.lua",
+		"/G/CJ/program/protocol/google/protobuf/unittest.proto",
+		"/G/CJ/program/protocol/google/protobuf/map_proto2_unittest.proto",
+		"/G/CJ/program/protocol/trunk/addressbook.pb",
+		"/G/CJ/program/protocol/include/google/protobuf/type.proto",
+		"/G/CJ/program/protocol/trunk/protocol/test_pb.pb",
+		"/C/Users/42588/Desktop/readme.txt",
+		"/G/CJ/program/protocol/google/protobuf/wrappers.proto",
+		"/G/CJ/program/protocol/ReadPb",
+		"/G/CJ/program/protocol/protoc",
+		"/G/CJ/program/protocol/listDir.sh",
+		"/G/CJ/program/server/trunk/UdpAdapter/stUDPAdapter.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/tolua/tolua++-1.0.92/src/lib/tolua_push.c",
+		"/G/steel_plan/steel/trunk/MongoClient/src/stMongoAsynClient.cpp",
+		"/G/steel_plan/steel/trunk/__Release/proj_deploy.sh",
+		"/C/Users/42588/Desktop/start_server.sh",
+		"/G/steel_plan/steel/trunk/MongoClient/src/stWorkerThreadRS.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/release/include/jsoncpp/json/json.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/mongo-cxx-driver-r3.1.3/src/mongocxx/client.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/mongo-cxx-driver-r3.1.3/src/mongocxx/options/client.hpp",
+		"/G/steel_plan/steel/trunk/Network/src/stNetWork.cpp",
+		"/G/steel_plan/steel/trunk/Common/Net/stINetEndpointAdapter.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocketmq-cpp/example/stRocketMQDispatcher.cpp",
+		"/G/steel_plan/steel/trunk/RocketMQClient/src/stRocketMqAdapter.cpp",
+		"/G/steel_plan/steel/trunk/Common/Util/stString.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocketmq-cpp/src/common/MQClient.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/consumer/DefaultMQPushConsumer.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocketmq-cpp/src/consumer/DefaultMQPushConsumer.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/release/include/rocketmq/DefaultMQPushConsumer.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/ClientConfig.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/include/ClientConfig.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/release/include/rocketmq/ClientConfig.h",
+		"/G/steel_plan/steel/trunk/RocketMQClient/src/stRocketMqAdapter.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/include/Message.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/release/include/rocketmq/Message.h",
+		"/G/steel_plan/steel/trunk/Lua/src/luabridger/luacjson/lua_cjson.c",
+		"/C/Users/42588/Desktop/testIo.lua",
+		"/G/steel_plan/steel/trunk/Thirdparty/mongo-c-driver-1.8.1/src/libbson/build/autotools/ReadCommandLineArguments.m4",
+		"/G/steel_plan/steel/trunk/Lua/src/luabridger/luacjson/dtoa_config.h",
+		"/G/steel_plan/steel/trunk/LuaScript/testSvr/testmongodb.lua",
+		"/G/steel_plan/steel/trunk/LuaScript/stMain.lua",
+		"/G/steel_plan/steel/trunk/LuaScript/loginSvr/launch.lua",
+		"/G/steel_plan/steel/trunk/LuaScript/loginSvr/loginSvr.lua",
+		"/G/steel_plan/steel/trunk/__Release/development/config/server_config.cfg",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/RocketMQClient.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/glog-0.3.5/src/windows/glog/stl_logging.h",
+		"/G/steel_plan/steel/trunk/Common/Stream/stByteArrayOutputStream.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/release/include/glog/raw_logging.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/glog-0.3.5/src/windows/port.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/glog-0.3.5/src/windows/glog/logging.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/glog-0.3.5/src/logging_unittest.cc",
+		"/C/Users/42588/AppData/Roaming/Sublime Text 3/Packages/User/lua52.sublime-build",
+		"/C/Users/42588/AppData/Roaming/Sublime Text 3/Packages/User/lua514.sublime-build",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/consumer/RebalanceImpl.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/consumer/RebalancePushImpl.h",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/consumer/DefaultMQPushConsumerImpl.cpp",
+		"/G/steel_plan/steel/trunk/LuaScript/testSvr/stMain.lua",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/MQClientAPIImpl.cpp",
+		"/G/steel_plan/steel/trunk/Thirdparty/rocktmq_linux/src/MQClientFactory.cpp",
+		"/G/steel_plan/steel/tool/rocketmq-all-4.1.0-incubating/conf/2m-noslave/broker-a.properties",
+		"/G/steel_plan/steel/tool/rocketmq-all-4.1.0-incubating/conf/2m-noslave/broker-b.properties",
+		"/G/steel_plan/steel/trunk/__Release/production/start_rocketmq.sh",
+		"/G/steel_plan/steel/trunk/Thirdparty/mongo-c-driver-1.8.1/tests/ssl-test.h",
+		"/G/steel_plan/steel/trunk/Common/Net/stNetDefine.h",
+		"/G/steel_plan/steel/trunk/_RebotSvr/src/stRebotApplication.cpp",
+		"/G/steel_plan/steel/trunk/LuaScript/testSvr/testMatchSvr.lua",
+		"/G/steel_plan/steel/trunk/__Release/dev/config/config.ini"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"base.html",
+			"google-analytics",
+			"ga_tracking_id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "G:\\lizijie.github.io"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1712,
+								1712
+							]
+						],
+						"settings":
+						{
+							"force_encoding": "GBK",
+							"in_converting": true,
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "GBK",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/head-icons-rel.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_layouts/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1289,
+								1294
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/utils/google-analytics.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/utils/baidu-tongji-analytics.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"open_with_edit": true,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 61.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CppYCM.2":
+	{
+		"height": 0.0
+	},
+	"output.CppYCM.3":
+	{
+		"height": 0.0
+	},
+	"output.CppYCM.4":
+	{
+		"height": 0.0
+	},
+	"output.CppYCM.6":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 372.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/lua514.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"y",
+				"_config.yml"
+			],
+			[
+				"_con",
+				"_config.yml"
+			],
+			[
+				"_yt",
+				"_layouts\\keynote.html"
+			],
+			[
+				"stapplog",
+				"trunk\\Common\\Util\\stAppLog.cpp"
+			],
+			[
+				"gamta",
+				"trunk\\LuaScript\\Global\\GameTable.lua"
+			],
+			[
+				"lau",
+				"trunk\\LuaScript\\gameSvr\\launch.lua"
+			],
+			[
+				"tbgam",
+				"trunk\\LuaScript\\dbProxySvr\\tbGameTable.lua"
+			],
+			[
+				"stappcon",
+				"trunk\\Framework\\include\\stAppConfig.h"
+			],
+			[
+				"aplicat",
+				"trunk\\Framework\\src\\stApplication.cpp"
+			],
+			[
+				"rocketmq",
+				"trunk\\RocketMQClient\\src\\stRocketMqAdapter.cpp"
+			],
+			[
+				"broa",
+				"trunk\\LuaScript\\Global\\broadcast.lua"
+			],
+			[
+				"netclien",
+				"trunk\\LuaScript\\Global\\netClient.lua"
+			],
+			[
+				"stluam",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"inst",
+				"trunk\\install.sh"
+			],
+			[
+				"tbac",
+				"trunk\\LuaScript\\dbProxySvr\\tbaccount.lua"
+			],
+			[
+				"ogin",
+				"trunk\\LuaScript\\loginSvr\\login.lua"
+			],
+			[
+				"loginsv",
+				"G:\\CJ\\program\\server\\trunk\\LuaScript\\loginSvr\\loginSvr.lua"
+			],
+			[
+				"bro",
+				"trunk\\LuaScript\\Global\\broadcast.lua"
+			],
+			[
+				"rpcha",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"netclie",
+				"trunk\\LuaScript\\Global\\netClient.lua"
+			],
+			[
+				"stapplica",
+				"trunk\\Framework\\src\\stApplication.cpp"
+			],
+			[
+				"rph",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"broad",
+				"trunk\\LuaScript\\Global\\broadcast.lua"
+			],
+			[
+				"gam",
+				"trunk\\LuaScript\\gameSvr\\gameMgr.lua"
+			],
+			[
+				"game",
+				"trunk\\LuaScript\\gameSvr\\gamemain.lua"
+			],
+			[
+				"boot",
+				"trunk\\LuaScript\\bootstrap.lua"
+			],
+			[
+				"stluma",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"boost",
+				"trunk\\LuaScript\\bootstrap.lua"
+			],
+			[
+				"stprem",
+				"trunk\\LuaScript\\stPreMain.lua"
+			],
+			[
+				"stman",
+				"trunk\\LuaScript\\stMain.lua"
+			],
+			[
+				"chanell",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"stprema",
+				"trunk\\LuaScript\\stPreMain.lua"
+			],
+			[
+				"stma",
+				"trunk\\LuaScript\\stMain.lua"
+			],
+			[
+				"gamm",
+				"trunk\\LuaScript\\gameSvr\\gameMgr.lua"
+			],
+			[
+				"disp",
+				"trunk\\LuaScript\\dispatchSvr\\dispatch.lua"
+			],
+			[
+				"mongo",
+				"trunk\\LuaScript\\Global\\mongo.lua"
+			],
+			[
+				"prot",
+				"trunk\\LuaScript\\Global\\protobuf.lua"
+			],
+			[
+				"stlug",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"logins",
+				"trunk\\LuaScript\\loginSvr\\loginSvr.lua"
+			],
+			[
+				"testmo",
+				"trunk\\LuaScript\\testSvr\\testMode.lua"
+			],
+			[
+				"testmong",
+				"trunk\\LuaScript\\testSvr\\testmongodb.lua"
+			],
+			[
+				"login.",
+				"trunk\\login.proto"
+			],
+			[
+				"server.sh",
+				"trunk\\__Release\\dev\\server\\server.sh"
+			],
+			[
+				"clog",
+				"trunk\\__Release\\dev\\clear_logs.sh"
+			],
+			[
+				"stnewo",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"netwo",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"netcli",
+				"trunk\\LuaScript\\Global\\netClient.lua"
+			],
+			[
+				"stsess",
+				"trunk\\Common\\Net\\stSession.h"
+			],
+			[
+				"stlum",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"proto",
+				"trunk\\LuaScript\\Global\\ProtocolProcessorCommonFunc.lua"
+			],
+			[
+				"stpkg",
+				"trunk\\Common\\Net\\stPKG.cpp"
+			],
+			[
+				"stluamg",
+				"trunk\\LuaPkg\\src\\stLuaMgr_tolua.cpp"
+			],
+			[
+				"stapplication_to",
+				"trunk\\LuaPkg\\src\\stApplication_tolua.cpp"
+			],
+			[
+				"stlu",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"stlie",
+				"trunk\\LibeventAdapter\\src\\stLibeventAdapter.cpp"
+			],
+			[
+				"luamgr",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"lugmg",
+				"trunk\\LuaScript\\gameSvr\\gameMgr.lua"
+			],
+			[
+				"protoc",
+				"trunk\\LuaScript\\Global\\ProtocolProcessorCommonFunc.lua"
+			],
+			[
+				"stnetwo",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stneow",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stli",
+				"trunk\\LibeventAdapter\\src\\stLibeventAdapter.cpp"
+			],
+			[
+				"stnew",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stlua",
+				"trunk\\Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"stnetwor",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stlieve",
+				"trunk\\LibeventAdapter\\src\\stLibeventAdapter.cpp"
+			],
+			[
+				"stend",
+				"trunk\\LibeventAdapter\\include\\stEndpoint.h"
+			],
+			[
+				"stn",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stappli",
+				"trunk\\Framework\\src\\stApplication.cpp"
+			],
+			[
+				"rpch",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"stnworo",
+				"trunk\\Thirdparty\\release\\include\\raknet\\NetworkIDObject.h"
+			],
+			[
+				"rphan",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"stnwo",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stnwor",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stsesion",
+				"trunk\\Common\\Net\\stSession.h"
+			],
+			[
+				"sapplica",
+				"trunk\\Framework\\src\\stApplication.cpp"
+			],
+			[
+				"stnetw",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"prp",
+				"trunk\\LuaScript\\Global\\ProtocolProcessorCommonFunc.lua"
+			],
+			[
+				"bootst",
+				"trunk\\LuaScript\\bootstrap.lua"
+			],
+			[
+				"pro",
+				"trunk\\LuaScript\\Global\\protobuf.lua"
+			],
+			[
+				"protlu",
+				"trunk\\protocol\\Protocol.lua"
+			],
+			[
+				"staplica",
+				"trunk\\Framework\\src\\stApplication.cpp"
+			],
+			[
+				"gamesv",
+				"trunk\\LuaScript\\gameSvr\\gameSvr.lua"
+			],
+			[
+				"stnetpkg",
+				"trunk\\LuaPkg\\pkg\\Network\\stNetWork.pkg"
+			],
+			[
+				"dbco",
+				"trunk\\LuaScript\\dbProxySvr\\dbconnector.lua"
+			],
+			[
+				"login",
+				"trunk\\login.proto"
+			],
+			[
+				"tbplay",
+				"trunk\\LuaScript\\dbProxySvr\\tbplayer.lua"
+			],
+			[
+				"dbcon",
+				"trunk\\LuaScript\\dbProxySvr\\dbconnector.lua"
+			],
+			[
+				"config",
+				"trunk\\__Release\\dev\\config\\config.ini"
+			],
+			[
+				"config.in",
+				"trunk\\Config\\proj\\config.ini"
+			],
+			[
+				"stmain",
+				"trunk\\LuaScript\\stMain.lua"
+			],
+			[
+				"loginsvr",
+				"trunk\\LuaScript\\loginSvr\\loginSvr.lua"
+			],
+			[
+				"stapcon",
+				"trunk\\Framework\\include\\stAppConfig.h"
+			],
+			[
+				"rphc",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"protocl",
+				"trunk\\LuaScript\\Global\\ProtocolProcessorCommonFunc.lua"
+			],
+			[
+				"pbc",
+				"trunk\\Common\\pbc\\pbc.h"
+			],
+			[
+				"protbu",
+				"trunk\\LuaScript\\Global\\protobuf.lua"
+			],
+			[
+				"protocol",
+				"trunk\\protocol\\Protocol.lua"
+			],
+			[
+				"stapp_to",
+				"trunk\\LuaPkg\\src\\stApp_tolua_open.cpp"
+			],
+			[
+				"server",
+				"trunk\\__Release\\dev\\server\\server.sh"
+			],
+			[
+				"run.sh",
+				"trunk\\LuaPkg\\run.sh"
+			],
+			[
+				"network",
+				"trunk\\Network\\src\\stNetWork.cpp"
+			],
+			[
+				"protoclde",
+				"trunk\\Common\\GlobalDef\\ProtocolDef.h"
+			],
+			[
+				"protde",
+				"trunk\\Common\\GlobalDef\\ProtocolDef.h"
+			],
+			[
+				"stlibeve",
+				"trunk\\LibeventAdapter\\src\\stLibeventAdapter.cpp"
+			],
+			[
+				"testlog",
+				"trunk\\LuaScript\\testSvr\\testLogin.lua"
+			],
+			[
+				"prob",
+				"trunk\\LuaScript\\Global\\protobuf.lua"
+			],
+			[
+				"rpc",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"dbconnector",
+				"trunk\\LuaScript\\dbProxySvr\\dbconnector.lua"
+			],
+			[
+				"stpgk",
+				"trunk\\Common\\Net\\stPKG.cpp"
+			],
+			[
+				"stbufferoutputstream",
+				"trunk\\Common\\Stream\\stBufferOutputStream.cpp"
+			],
+			[
+				"",
+				"trunk\\LuaPkg\\src\\stApp_tolua_open.cpp"
+			],
+			[
+				"error",
+				"trunk\\protocol\\ErrorCodeDefines.lua"
+			],
+			[
+				"mongoso",
+				"trunk\\MongoClient\\src\\stMongoSocket.cpp"
+			],
+			[
+				"dbcn",
+				"trunk\\LuaScript\\dbProxySvr\\dbconnector.lua"
+			],
+			[
+				"tbsy",
+				"trunk\\LuaScript\\dbProxySvr\\tbsystemparam.lua"
+			],
+			[
+				"dbde",
+				"trunk\\LuaScript\\dbProxySvr\\dbdef.lua"
+			],
+			[
+				"mong",
+				"trunk\\LuaScript\\Global\\mongo.lua"
+			],
+			[
+				"stapp_",
+				"trunk\\LuaPkg\\src\\stApp_tolua_open.cpp"
+			],
+			[
+				"stmongso",
+				"trunk\\MongoClient\\src\\stMongoSocket.cpp"
+			],
+			[
+				"mongosock",
+				"trunk\\MongoClient\\src\\stMongoSocket.cpp"
+			],
+			[
+				"rpchandler",
+				"trunk\\LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"rhp",
+				"LuaScript\\Global\\rpcHandler.lua"
+			],
+			[
+				"stappl",
+				"Framework\\src\\stApplication.cpp"
+			],
+			[
+				"stne",
+				"Network\\src\\stNetWork.cpp"
+			],
+			[
+				"stap",
+				"Framework\\src\\stApplication.cpp"
+			],
+			[
+				"protolu",
+				"LuaScript\\Global\\protobuf.lua"
+			],
+			[
+				"stlau",
+				"Lua\\src\\stLuaMgr.cpp"
+			],
+			[
+				"dis",
+				"LuaScript\\dispatchSvr\\dispatch.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"zlog",
+				"G:\\zlog-1.2.12\\zlog.sublime-workspace"
+			],
+			[
+				"cj_ser",
+				"G:\\CJ\\program\\server\\trunk\\cj_server.sublime-workspace"
+			],
+			[
+				"cj_tr",
+				"G:\\CJ\\program\\client\\trunk\\cj\\cj_client.sublime-workspace"
+			],
+			[
+				"fei",
+				"G:\\steel_plan\\original\\feiche\\server\\engine\\feiche_engine.sublime-workspace"
+			],
+			[
+				"FIE",
+				"G:\\steel_plan\\original\\feiche\\server\\engine\\feiche_engine.sublime-workspace"
+			],
+			[
+				"cj",
+				"G:\\CJ\\program\\client\\trunk\\cj\\cj.sublime-workspace"
+			],
+			[
+				"",
+				"G:\\inih\\inih.sublime-workspace"
+			],
+			[
+				"glog",
+				"G:\\glog\\glog.sublime-workspace"
+			],
+			[
+				"ZLOG",
+				"G:\\zlog-1.2.12\\zlog.sublime-workspace"
+			],
+			[
+				"wi",
+				"G:\\steel_plan\\original\\wjzb\\server\\wjzb.sublime-workspace"
+			],
+			[
+				"steel",
+				"G:\\steel_plan\\steel\\trunk\\steel_trunk.sublime-workspace"
+			],
+			[
+				"gunsou",
+				"G:\\Gunsoul\\program\\server\\src\\trunk\\gunsoul_server.sublime-workspace"
+			],
+			[
+				"f",
+				"G:\\steel_plan\\original\\feiche\\server\\logic\\script\\feiche_logic.sublime-workspace"
+			],
+			[
+				"wj",
+				"G:\\steel_plan\\original\\wjzb\\server\\wjzb.sublime-workspace"
+			],
+			[
+				"FEI",
+				"G:\\steel_plan\\original\\feiche\\server\\logic\\script\\feiche_logic.sublime-workspace"
+			]
+		],
+		"width": 683.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "connec",
+		"selected_items":
+		[
+			[
+				"connec",
+				"Connect"
+			],
+			[
+				"print",
+				"print"
+			],
+			[
+				"setlog",
+				"SetLogDestination"
+			]
+		],
+		"width": 631.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
