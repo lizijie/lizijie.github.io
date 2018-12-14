@@ -2,7 +2,7 @@
 layout: post
 title: Lantern共享VPN
 key: 201812141438
-tags: raknet UDP
+tags: vpn
 ---
 
 [TOC]
