@@ -227,6 +227,8 @@ fixed (byte* pData = data)
 
 > Win32平台下的微软VC编译器在默认情况下采用如下的对齐规则: 任何基本数据类型T的对齐模数就是T的大小，即sizeof(T)。比如对于double类型(8字节)，就要求该类型数据的地址总是8的倍数，而char类型数据(1字节)则可以从任何一个地址开始。Linux下的GCC奉行的是另外一套规则:任何2字节大小(包括单字节吗?)的数据类型(比如short)的对齐模数是2，而其它所有超过2字节的数据类型(比如long,double)都以4为对齐模数。[^2]
 
+<br>
+
 测试的unity版本是2018.3.0f2，其它版本情况未知
 
 [^1]:https://blog.csdn.net/codejoker/article/details/4543136
