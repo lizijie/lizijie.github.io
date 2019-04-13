@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity3d IL2CPP 要求内存对齐
+title: Unity3d IL2CPP 内存对齐错误
 key: 201904131333
 tags: unity
 ---
