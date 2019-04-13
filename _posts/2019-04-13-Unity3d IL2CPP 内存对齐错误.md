@@ -220,8 +220,8 @@ fixed (byte* pData = data)
 }
 ```
 
-然而unity mono并不会该问题，il2cpp下的android、ios均会出现类似的信号错误`signal 7 (SIGBUS), code 1 (BUS_ADRALN)`，对应到以上的异或运算，表明指针进行了***未对齐的地址访问***。 <br>
-以下是一些作者对它的理解
+然而unity mono并不会该问题，il2cpp下的android、ios均会出现类似的信号错误`signal 7 (SIGBUS), code 1 (BUS_ADRALN)`，实际情况是，`i64lhs = (ulong*)(pData + i);`进行了***未对齐的地址访问***。 <br>
+以下是一些作者对***未对齐的地址访问***的理解
 
 > 某些架构上访问数据时有对齐的要求，比如只能从4字节边界上读取一个4字节的数据类型。IA-32架构没有硬性要求对齐，尽管未对齐的访问降低执行效率。另外一些架构，比如SPARC、m68k，要求对齐访问，否则向当前进程分发SIGBUS信号。[^1]
 
