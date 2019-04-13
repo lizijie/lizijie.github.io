@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2019-04-13-Unity3d IL2CPP 要求内存对齐
+title: Unity3d IL2CPP 要求内存对齐
 key: 201904131333
 tags: unity
 ---
@@ -220,15 +220,14 @@ fixed (byte* pData = data)
 }
 ```
 
-然而unity mono并不会该问题，il2cpp下android、ios均会出现类似的信号错误`signal 7 (SIGBUS), code 1 (BUS_ADRALN)`，对应到以上的异或运算，表明指针进行了***未对齐的地址访问***
-以下是一些作者对它的理解[^1]
+然而unity mono并不会该问题，il2cpp下android、ios均会出现类似的信号错误`signal 7 (SIGBUS), code 1 (BUS_ADRALN)`，对应到以上的异或运算，表明指针进行了***未对齐的地址访问*** <br>
+以下是一些作者对它的理解
 
 > 某些架构上访问数据时有对齐的要求，比如只能从4字节边界上读取一个4字节的数据类型。IA-32架构没有硬性要求对齐，尽管未对齐的访问降低执行效率。另外一些架构，比如SPARC、m68k，要求对齐访问，否则向当前进程分发SIGBUS信号。[^1]
 
 > Win32平台下的微软VC编译器在默认情况下采用如下的对齐规则: 任何基本数据类型T的对齐模数就是T的大小，即sizeof(T)。比如对于double类型(8字节)，就要求该类型数据的地址总是8的倍数，而char类型数据(1字节)则可以从任何一个地址开始。Linux下的GCC奉行的是另外一套规则:任何2字节大小(包括单字节吗?)的数据类型(比如short)的对齐模数是2，而其它所有超过2字节的数据类型(比如long,double)都以4为对齐模数。[^2]
 
 <br>
-
 测试的unity版本是2018.3.0f2，其它版本情况未知
 
 [^1]:https://blog.csdn.net/codejoker/article/details/4543136
@@ -237,7 +236,7 @@ fixed (byte* pData = data)
 <br>	
 <br>	
 <b>原文:<br>	
-https://lizijie.github.io/2018/12/14/Lantern%E5%85%B1%E4%BA%ABVPN.html
+https://lizijie.github.io/2019/04/13/Unity3d-IL2CPP-C-%E6%8C%87%E9%92%88%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90%E9%94%99%E8%AF%AF.html#fn:1
 <br>	
 作者github:<br>	
 <https://github.com/lizijie>	
