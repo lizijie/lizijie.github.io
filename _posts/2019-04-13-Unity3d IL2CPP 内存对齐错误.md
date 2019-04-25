@@ -193,30 +193,19 @@ unity3d il2cpp安卓包运行异常，出现信号错误`signal 7 (SIGBUS), code
 
 异常代码出现在unity3d c#一处指针操作。为了更快的效率，我使用指针每8个字节进行一次异或运算，代码大概如下：
 ```c#
+// do something here
+
 fixed (byte* pData = data)
 {
-    int end = begin + len;
-    ulong* i64lhs = null;
-    int i = begin;
+    // do something here
     while (i + UINT64_SIZE <= end)
     {
         i64lhs = (ulong*)(pData + i);
         *i64lhs ^= key;
         i += UINT64_SIZE;
     }
-    // 对剩余不足UINT64_SIZE的字节异或
-    byte* pKey = (byte*)&key;
-    byte* clhs = null;
-    byte* crhs = null;
-    int j = 0;
-    while (i < end)
-    {
-        clhs = (byte*)(pData + i);
-        crhs = (byte*)(pKey + j);
-        *clhs ^= *crhs;
-        ++i;
-        j = (j + 1) % UINT64_SIZE;
-    }
+    
+    // do something here
 }
 ```
 
