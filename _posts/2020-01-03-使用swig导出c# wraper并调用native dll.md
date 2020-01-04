@@ -16,7 +16,7 @@ Building a C# module是swig导出C# wraper并调用native dll的官方样例。�
 <br>	
 <br>	
 <b>原文:<br>
-<>
+<https://lizijie.github.io/2020/01/03/%E4%BD%BF%E7%94%A8swig%E5%AF%BC%E5%87%BAc-wraper%E5%B9%B6%E8%B0%83%E7%94%A8native-dll.html>
 <br>
 作者github:<br>	
 <https://github.com/lizijie>	
