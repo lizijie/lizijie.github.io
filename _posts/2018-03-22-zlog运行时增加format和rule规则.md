@@ -11,9 +11,9 @@ tags: 日志 zlog
 ）： 相同的日志输出格式可以在运行时，统一定义。
 
 
-将zlog fork下来，[尝试修改了一下](https://github.com/lizijie/zlog)。
+增加这个功能[尝试修改了一下](https://github.com/lizijie/zlog)。
 
-如下，zlog.h添加增删[format]和[rule]规则的接口（删规则还未实现）
+zlog.h添加增删[format]和[rule]规则的接口（删规则还未实现）
 
 ```c
 int zlog_add_format(const char *ctx);
