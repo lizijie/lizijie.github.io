@@ -2,7 +2,7 @@
 layout: post
 title: mmap相比于fwrite写日志，是否有性能优势?
 key: 202107301500
-tags: 算法
+tags: 操作系统
 ---
 
 最近想写一个轻巧的日志库。在google搜索有关高性能日志的实现原理。
@@ -11,13 +11,13 @@ tags: 算法
 
 有人认为日志库的一大特性就是顺序写，读/写缺页依然要中断，mmap与fwrite在这方面性能相差无几。
 
-以下是我在v2ex提的帖子。看大神们的回答着实受益匪浅
+以下是我在v2ex提的帖子，反对使用mmap的理由较多
 [mmap相比于fwrite写日志，是否有性能优势](https://www.v2ex.com/t/791638#reply27)
 
 <br>	
 <br>	
 <b>原文:<br>
-<https://lizijie.github.io/2021/07/17/%E7%94%9F%E6%88%90%E4%B8%8D%E9%87%8D%E5%A4%8D%E9%A2%98%E7%9B%AE-%E9%9A%8F%E6%9C%BA.html>
+<https://lizijie.github.io/2021/07/31/mmap-%E7%9B%B8%E6%AF%94%E4%BA%8E-fwrite-%E5%86%99%E6%97%A5%E5%BF%97-%E6%98%AF%E5%90%A6%E6%9C%89%E6%80%A7%E8%83%BD%E4%BC%98%E5%8A%BF.html>
 <br>
 作者github:<br>	
 <https://github.com/lizijie>
