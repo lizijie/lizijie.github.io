@@ -7,13 +7,13 @@ tags: unity
 
 [TOC]
 
-源于新人在开发界面前，容易忘记要先在GameView设置分辨率大小。导致在目标分辨率下布局效果达不到要求。
+新人容易忘记要先设计GameView分辨率大小再开发界面。
 
 从技术层面，我想一个解决办法是，分辨率默在配置表中定义，当首次打开Unity工程时，GameView默认使用这个分辨率。
 
 ![](https://raw.githubusercontent.com/lizijie/lizijie.github.io/master/assets/images/2020-09-26-%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AE%BE%E7%BD%AEUnity3d%20GameView%E7%AA%97%E5%8F%A3%E5%88%86%E8%BE%A8%E7%8E%87%E7%9A%84%E4%B8%80%E4%B8%AA%E6%83%B3%E6%B3%95/size_view.png)
 
-翻了UnityEditor源码，发现其并不开放设置GameView窗口的接口。于是写了以下代码，尝试通过修改其配置文件GameView.asset，追加配置。同时Unity也不开放其内部YAML的序列化接口，于使用了AssetStore的第三库YamlDotNet。但YamlDotNet的输出内容，Unity原生的YAML格式，有一下差别，见图。
+翻了UnityEditor源码，发现其并不开放设置GameView窗口的接口。于是写了以下代码，尝试通过修改其配置文件GameView.asset,window下文件大概在`C:/Users/YOUR_USER_NAME/AppData/Roaming/Unity/Editor-5.x/Preferences`。同时Unity也不开放其内部YAML的序列化接口，于使用了AssetStore的第三库YamlDotNet。但YamlDotNet的输出内容，Unity原生的YAML格式，有一下差别，见图。
 ```c#
 void Test()
 {
