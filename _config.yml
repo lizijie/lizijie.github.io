@@ -100,6 +100,7 @@ excerpt_type: text # text | html
 markdown: kramdown
 highlighter: rouge
 permalink: date
+future: true
 
 exclude:
   - CHANGELOG.md
