@@ -12,17 +12,18 @@ luacheck是一个很不错的lua静态代码分析工具，它输出异常信息
 [luacheck_blame_report](https://github.com/lizijie/luacheck_blame_report)目前基于git仓库工程，整合luacheck与git blame筛选出与作者关联的异常数量以及具体的异常条目
 
 # 用法
-`sh check [需要检查的lua代码文件/目录] [luacheck配置文件(可选)]`
+`sh check.sh [luacheck本身的参数选项]`
 
 # 运行依赖
 git、awk、wc、find
 
 # 样例
-[luacheck_blame_report](https://github.com/lizijie/luacheck_blame_report)子模块luacheck的异常报告
+[luacheck_blame_report](https://github.com/lizijie/luacheck_blame_report)目录下luacheck的lua代码异常报告
 ```
+$ cd xxxx
+$ git clone https://github.com/lizijie/luacheck_blame_report --recursive ./luacheck
 $ cd xxxx/luacheck_blame_report/luacheck
-$ sh check.sh ./ ../..luacheckrc
---config ../.luacheckrc
+$ sh ../check.sh ./ --config ../.luacheckrc
 Total: 123 warnings / 6 errors in 130 files
 report file: /mnt/f/luacheck_blame_report/2022-10-16-09-51-55-lua_check_report
 $ cat /mnt/f/luacheck_blame_report/2022-10-16-09-51-55-lua_check_report
