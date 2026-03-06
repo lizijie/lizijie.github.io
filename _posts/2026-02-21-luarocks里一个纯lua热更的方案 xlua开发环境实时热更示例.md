@@ -249,7 +249,7 @@ return M");
 
 
 <b>原文:<br>
-<https://lizijie.github.io/2025/12/21/%E6%90%AD%E5%BB%BAloki%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88.html>
+<https://lizijie.github.io/2026/02/21/luarocks%E9%87%8C%E4%B8%80%E4%B8%AA%E7%BA%AFlua%E7%83%AD%E6%9B%B4%E7%9A%84%E6%96%B9%E6%A1%88-xlua%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%9E%E6%97%B6%E7%83%AD%E6%9B%B4%E7%A4%BA%E4%BE%8B.html>
 <br>
 
 作者github:<br>
