@@ -20,7 +20,6 @@ tags: lua git luacheck
 | **`post-merge`** | `git merge` 成功后 | 合并代码后的同步操作 | 当远程代码合并进本地后，如果 `package.json` 有变动，自动提示或运行 **依赖更新**。 |
 | **`pre-push`** | 执行 `git push` 后，远程引用更新前 | 防止不合格的代码被推送到云端 | 运行耗时较长的**全量集成测试**，如果测试失败则阻止推送，保护公共分支。 |
 | **`pre-rebase`** | 执行 `git rebase` 前 | 运行变基前的安全性检查 | 检查是否正在对已经推送到服务器的分支进行变基（防止污染他人分支历史）。 |
----
 
 ## 服务端钩子 (代码仓库服务器使用)
 
@@ -29,7 +28,6 @@ tags: lua git luacheck
 | **`pre-receive`** | 服务器收到推送请求，开始更新前 | 核心权限和合规性校验（全局） | 拒绝没有关联 Jira 任务 ID 的推送；**拒绝包含大文件**或敏感信息（如密码）的推送。 |
 | **`update`** | 与 pre-receive 类似，但针对每个分支运行一次 | 细粒度的分支访问控制 | 禁止非管理员用户推送代码到 `master` 或 `production` 分支，但允许推送 `feature/*`。 |
 | **`post-receive`** | 整个推送过程完成且更新成功后 | 触发自动化流程（CI/CD） | 自动触发 Jenkins/GitLab CI 流水线；**自动部署**代码到测试服务器；发送邮件或 Slack 钉钉通知。 |
----
 
 # git commit前 时进行代码检查
 在日常lua开发，笔者习惯在提交代码前，检查以下几个事项：
@@ -54,7 +52,7 @@ https://github.com/lizijie/git_hook_example/tree/main/lua/pre-commit
 `luacheck`本身是必须搭配其配置才能发挥效果的，而且大部分配置不通用，特别是有些工程逻辑的全局标识luacheck识别不到，需要加入配置里。见[luacheck官方文档](https://luacheck.readthedocs.io/en/stable/)。我写了一个[luacheck配置示例](https://github.com/lizijie/luacheck_cfg_example/blob/main/.luacheckrc)可供参考。
 
 <b>原文:<br>
-<https://lizijie.github.io/2025/12/21/%E6%90%AD%E5%BB%BAloki%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88.html>
+<https://lizijie.github.io/2026/03/01/git-hook%E8%BF%9B%E8%A1%8Cluacheck.html>
 <br>
 
 作者github:<br>
