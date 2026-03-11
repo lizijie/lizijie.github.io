@@ -129,7 +129,7 @@ end
 
 
 <b>原文:<br>
-<https://lizijie.github.io/2025/12/21/%E6%90%AD%E5%BB%BAloki%E6%97%A5%E5%BF%97%E8%81%9A%E5%90%88.html>
+<https://lizijie.github.io/2026/03/02/skynet-sharetable.loadtable%E7%9B%B8%E5%90%8C%E5%BC%95%E7%94%A8table%E4%BC%9A%E6%B7%B1%E5%A4%8D%E5%88%B6.html>
 <br>
 
 作者github:<br>
