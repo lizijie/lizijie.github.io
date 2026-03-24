@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2026-03-21-skynet我的一种lua代码组织方式
+title: skynet我的一种lua代码组织方式
 key: 202603211504
 tags: lua skynet
 ---
