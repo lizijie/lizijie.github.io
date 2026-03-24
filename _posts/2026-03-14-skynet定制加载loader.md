@@ -55,7 +55,7 @@ end
 ```
 
 <b>原文:<br>
-<https://lizijie.github.io/2026/03/02/skynet-sharetable.loadtable%E7%9B%B8%E5%90%8C%E5%BC%95%E7%94%A8table%E4%BC%9A%E6%B7%B1%E5%A4%8D%E5%88%B6.html>
+<https://lizijie.github.io/2026/03/14/skynet%E5%AE%9A%E5%88%B6%E5%8A%A0%E8%BD%BDloader.html>
 <br>
 
 作者github:<br>
