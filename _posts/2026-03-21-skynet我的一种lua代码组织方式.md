@@ -97,7 +97,7 @@ bootstrap = "snlua bootstrap"	-- The service for bootstrap
 
 
 <b>原文:<br>
-<https://lizijie.github.io/2026/03/02/skynet-sharetable.loadtable%E7%9B%B8%E5%90%8C%E5%BC%95%E7%94%A8table%E4%BC%9A%E6%B7%B1%E5%A4%8D%E5%88%B6.html>
+<https://lizijie.github.io/2026/03/21/skynet%E6%88%91%E7%9A%84%E4%B8%80%E7%A7%8Dlua%E4%BB%A3%E7%A0%81%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F.html>
 <br>
 
 作者github:<br>
