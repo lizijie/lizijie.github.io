@@ -1,4 +1,11 @@
 
+# 安装包
+- 安装Homebrew
+见官网安装方式https://brew.sh/
+- 日常使用的软件
+brew install git 
+- 安装Rosetta 2
+softwareupdate --install-rosetta
 # 快捷键
 截取选定区域：Command (⌘) + Shift + 4
 保存到剪贴板（不生成文件）：Control + Command + Shift + 4。截图后直接在目标位置 Command + V 粘贴即可。[1]

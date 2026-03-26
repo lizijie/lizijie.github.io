@@ -7,6 +7,8 @@ tags: locust
 
 # 版本：locust==2.32.1
 
+[locust系列](https://lizijie.github.io/2026/03/24/locust%E7%B3%BB%E5%88%97-%E5%BC%80%E7%AF%87.html)
+
 locust 要求压测逻辑定义在 `User.tasks` 类变量中。对于基于 TCP 长连接的游戏项目来说，这种方式并不适用。因为只有在角色登录成功并返回角色数据后，压测逻辑才能根据业务数据状态发起请求。
 
 ## locust 如时使用 user.tasks
