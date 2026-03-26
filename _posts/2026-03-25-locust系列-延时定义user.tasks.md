@@ -197,7 +197,7 @@ class MyUser(User):
 ```
 
 <b>原文:<br>
-<https://lizijie.github.io/2026/03/14/skynet%E5%AE%9A%E5%88%B6%E5%8A%A0%E8%BD%BDloader.html>
+<https://lizijie.github.io/2026/03/25/locust%E7%B3%BB%E5%88%97-%E5%BB%B6%E6%97%B6%E5%AE%9A%E4%B9%89user.tasks.html>
 <br>
 
 作者github:<br>
