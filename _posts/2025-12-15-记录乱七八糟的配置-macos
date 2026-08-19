@@ -1,11 +1,33 @@
 
 # 安装包
+
 - 安装Homebrew
 见官网安装方式https://brew.sh/
+
+- adb
+
+```bash
+brew install android-platform-tools
+```
+
+移除adb安全风险提示
+
+```bash
+xattr -d com.apple.quarantine $(which adb)
+```
+
 - 日常使用的软件
 brew install git 
+brew install scrcpy 
+
 - 安装Rosetta 2
+
 softwareupdate --install-rosetta
+
+- docker
+    - docker desktop->settings->docker engine上的设置内容会覆盖`~/.docker/daemon.json`，不要手动修改`~/.docker/daemon.json`
+    - 代理设置 docker destop->setttings->resources->proxies
+
 # 快捷键
 截取选定区域：Command (⌘) + Shift + 4
 保存到剪贴板（不生成文件）：Control + Command + Shift + 4。截图后直接在目标位置 Command + V 粘贴即可。[1]
